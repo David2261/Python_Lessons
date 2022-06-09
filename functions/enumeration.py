@@ -14,12 +14,12 @@
 COLOUR = ["Black", "Purple", "Brown", "Yellow", "Blue"]
 
 
-# list(enumerate(COLOUR))
+list(enumerate(COLOUR))
 # [(0, 'Black'), (1, 'Purple'), (2, 'Brown'), (3, 'Yellow'), (4, 'Blue')]
 
 # ~~~~~~~~~~~~~~~~~~~ #
 
-# list(enumerate(COLOUR, 10))
+list(enumerate(COLOUR, 10))
 # [(10, 'Black'), (11, 'Purple'), (12, 'Brown'), (13, 'Yellow'), (14, 'Blue')]
 
 
@@ -31,7 +31,7 @@ colour = {
 	"Blue": 1
 }
 
-# list(enumerate(colour.items()))
+list(enumerate(colour.items()))
 # [(0, ('Black', 0)), (1, ('Purple', 2)), (2, ('Brown', 4)), (3, ('Yellow', 9)), (4, ('Blue', 1))]
 
 
